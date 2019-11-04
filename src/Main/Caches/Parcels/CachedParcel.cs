@@ -5,10 +5,10 @@ using USC.GISResearchLab.Common.Geometries.Polygons;
 
 namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches
 {
-	/// <summary>
-	/// Summary description for CachedParcel.
-	/// </summary>
-	public class CachedParcel: Polygon
+    /// <summary>
+    /// Summary description for CachedParcel.
+    /// </summary>
+    public class CachedParcel : Polygon
     {
         #region Properties
         private int _Hasmultipleassessorids;
@@ -20,7 +20,7 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches
             get { return _StreetAddress; }
             set { _StreetAddress = value; }
         }
-        
+
         public int Hasmultipleassessorids
         {
             get { return _Hasmultipleassessorids; }
@@ -36,8 +36,8 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches
 
 
         public CachedParcel()
-		{
-		}
+        {
+        }
 
         public static new CachedParcel FromCoordinateString(string xyString)
         {
@@ -61,9 +61,9 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches
             return ret;
         }
 
-		public void update()
-		{
-			HasmultipleassessoridsBool = Convert.ToBoolean(Hasmultipleassessorids);
-		}
-	}
+        public void update()
+        {
+            HasmultipleassessoridsBool = Convert.ToBoolean(Hasmultipleassessorids);
+        }
+    }
 }
