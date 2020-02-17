@@ -71,7 +71,7 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches.Parcels
                         {
                             cachedParcel = new CachedParcel();
 
-                            cachedParcel.Id = dr.GetInt32(0);
+                            cachedParcel.Id = dr.GetString(0);
                             cachedParcel.Hasmultipleassessorids = dr.GetInt32(1);
                             streetAddress.AddressId = dr.GetString(2);
                             cachedParcel.StreetAddress = streetAddress;

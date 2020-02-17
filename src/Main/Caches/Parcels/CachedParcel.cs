@@ -11,26 +11,12 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches
     public class CachedParcel : Polygon
     {
         #region Properties
-        private int _Hasmultipleassessorids;
-        private bool _HasmultipleassessoridsBool;
-        private StreetAddress _StreetAddress;
 
-        public StreetAddress StreetAddress
-        {
-            get { return _StreetAddress; }
-            set { _StreetAddress = value; }
-        }
 
-        public int Hasmultipleassessorids
-        {
-            get { return _Hasmultipleassessorids; }
-            set { _Hasmultipleassessorids = value; }
-        }
-        public bool HasmultipleassessoridsBool
-        {
-            get { return _HasmultipleassessoridsBool; }
-            set { _HasmultipleassessoridsBool = value; }
-        }
+        public StreetAddress StreetAddress { get; set; }
+
+        public int Hasmultipleassessorids { get; set; }
+        public bool HasmultipleassessoridsBool { get; set; }
         #endregion
 
 
