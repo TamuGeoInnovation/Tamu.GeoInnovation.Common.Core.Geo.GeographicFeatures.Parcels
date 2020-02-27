@@ -82,8 +82,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Caches\Parcels\CachedParcel.cs" />
@@ -120,54 +118,14 @@
       <Name>Common.Core.Addresses.Dev</Name>
       <Private>False</Private>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Common.Core.Drawing\Src\Main\Common.Core.Drawing.Dev.csproj">
-      <Project>{282C24E4-E164-4679-AAD4-E640B30404DC}</Project>
-      <Name>Common.Core.Drawing.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Common.Core.ExceptionHandling\Src\Main\Common.Core.ExceptionHandling.Dev.csproj">
-      <Project>{4A553AE2-F5D1-42B6-BE3A-8442DF626EAF}</Project>
-      <Name>Common.Core.ExceptionHandling.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Common.Core.Geo.GeographicFeatures.Streets\Src\Main\Common.Core.Geo.GeographicFeatures.Streets.Dev.csproj">
-      <Project>{0C225E8B-E8AA-4AC2-A5BA-4B00AE357311}</Project>
-      <Name>Common.Core.Geo.GeographicFeatures.Streets.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Common.Core.Geo.GeographicFeatures\Src\Main\Common.Core.Geo.GeographicFeatures.Dev.csproj">
-      <Project>{2C758E50-22C2-4928-8B90-9A582CB33426}</Project>
-      <Name>Common.Core.Geo.GeographicFeatures.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
     <ProjectReference Include="..\..\..\Common.Core.Geo.Geometries\Src\Main\Common.Core.Geo.Geometries.Dev.csproj">
       <Project>{E8164C90-2753-46F3-937A-653039318563}</Project>
       <Name>Common.Core.Geo.Geometries.Dev</Name>
       <Private>False</Private>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Common.Core.Geo.Units.Converters\Src\Main\Common.Core.Geo.Units.Converters.Dev.csproj">
-      <Project>{5CB3098F-54E7-427E-95CA-4D0EBBA9E2AB}</Project>
-      <Name>Common.Core.Geo.Units.Converters.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Common.Core.Geo.Units\Src\Main\Common.Core.Geo.Units.Dev.csproj">
-      <Project>{5F42520E-2DDA-4B4A-AFE5-5F5E00E33D47}</Project>
-      <Name>Common.Core.Geo.Units.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Common.Core.Images\Src\Main\Common.Core.Images.Dev.csproj">
-      <Project>{7E8B964D-3967-4118-9157-E8CE41A225B5}</Project>
-      <Name>Common.Core.Images.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
     <ProjectReference Include="..\..\..\Common.Core.Utils\Src\Main\Common.Core.Utils.Dev.csproj">
       <Project>{0744A732-A7FE-4658-967D-C5A583EF08E4}</Project>
       <Name>Common.Core.Utils.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Common.Core.Web\Src\Main\Common.Core.Web.Dev.csproj">
-      <Project>{DEA75FBD-F1B4-4730-B10D-CBE20538DA37}</Project>
-      <Name>Common.Core.Web.Dev</Name>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Common.Data.Databases\Src\Main\Common.Data.Databases.Dev.csproj">
